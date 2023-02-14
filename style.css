@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+    
+.left .up{
+    display: flex;
+    padding: 50px 0px;
+}
+
+.up h1{
+position: relative;
+top: 14px;
+}
+.left img{
+    width:100px
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    
+    position: absolute;
+    
+    width:5%;
+    background-color: white;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 0px;
+    overflow-y:scroll;
+    height: 100vh;
+    overflow-x:hidden;
+}
+.left .btn{
+padding: 27px 60px;
+border: none;
+background-color: white;
+display: inline;
+justify-content: start;
+
+
+}
+.left .btn p{
+    font-size:large ;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+display:inline-block;
+
+}
+.left .btn:hover{
+    background-color: lightblue;
+}
+.btn .hm{
+font-size: 40px;
+
+
+}
+body .left:hover{
+width:20%;
+}
